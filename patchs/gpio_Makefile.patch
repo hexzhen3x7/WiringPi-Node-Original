@@ -2,8 +2,8 @@
 +++ Makefile	2014-07-04 10:13:01.000000000 +0200
 @@ -25,14 +25,15 @@
  
- DESTDIR=?/usr
- PREFIX=?/local
+ DESTDIR?=/usr
+ PREFIX?=/local
 +PWD=`pwd`
 
  ifneq ($V,1)
