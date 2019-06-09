@@ -51,8 +51,8 @@
         'wiringpi/devLib'
       ],
       'libraries': [
-        '<!(pwd)/wiringpi/wiringPi/libwiringPi.a',
-        '<!(pwd)/wiringpi/devLib/libwiringPiDev.a'
+        '<!(pwd)/WiringPi/wiringPi/libwiringPi.a',
+        '<!(pwd)/WiringPi/devLib/libwiringPiDev.a'
       ],
       'cflags': [
         '-Wall'
