@@ -6,6 +6,12 @@
  PREFIX=/local
 +PWD=`pwd`
  
+LDCONFIG?=ldconfig
+
+ifneq ($V,1)
+Q ?= @
+endif
+
  STATIC=libwiringPiDev.a
  DYNAMIC=libwiringPiDev.so.$(VERSION)
 @@ -33,7 +34,7 @@
