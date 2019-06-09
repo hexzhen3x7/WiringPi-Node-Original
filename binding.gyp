@@ -44,8 +44,7 @@
         'src/devlib/maxdetect.cc',
         'src/devlib/piFace.cc',
         'src/devlib/piGlow.cc',
-        'src/devlib/piNes.cc',
-        'src/devlib/tcs34725.cc'
+        'src/devlib/piNes.cc'
       ],
       'include_dirs': [
         'wiringpi/wiringPi',
