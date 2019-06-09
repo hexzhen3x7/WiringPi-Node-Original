@@ -5,6 +5,10 @@
  DESTDIR=/usr
  PREFIX=/local
 +PWD=`pwd`
+
+ifneq ($V,1)
+Q ?= @
+endif
  
  #DEBUG	= -g -O0
  DEBUG	= -O2
