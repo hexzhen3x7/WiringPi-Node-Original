@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:pjgpetecodes/WiringPi-Node.git"
+    "url": "git@github.com:WiringPi/WiringPi-Node.git"
   },
   "keywords": [
     "wiringPi",
