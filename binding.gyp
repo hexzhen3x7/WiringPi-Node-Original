@@ -47,8 +47,8 @@
         'src/devlib/piNes.cc'
       ],
       'include_dirs': [
-        'wiringpi/wiringPi',
-        'wiringpi/devLib'
+        'WiringPi/wiringPi',
+        'WiringPi/devLib'
       ],
       'libraries': [
         '<!(pwd)/WiringPi/wiringPi/libwiringPi.a',
