@@ -2,6 +2,10 @@ Node.js bindings to [wiringPi](http://www.wiringpi.com)
 
 Based on the awesome work of [Soarez](https://github.com/Soarez/node-wiring-pi)
 
+This version fixes the BCM identification issue present in the original Wiring-Pi node Module.
+
+The original version relied on a very old version of Wiring-Pi.
+
 ## Install
 
 ```
@@ -11,7 +15,7 @@ npm install wiring-pi
 ## Usage
 
 ```javascript
-var wpi = require('wiring-pi');
+var wpi = require('wiring-pi-2019');
 ```
 ## Documentation
 
@@ -39,3 +43,4 @@ Chris Continanza | [csquared](https://github.com/csquared) | [@csquared](https:/
 Tao Yuan | [taoyuan](https://github.com/taoyuan) | [@taoyvan](https://twitter.com/taoyvan)
 Tom Janson | [tjanson](https://github.com/tjanson) |
 Vincent Terraillon | [LouTerrailloune](https://github.com/LouTerrailloune) | [@pure74vincent](https://twitter.com/pure74vincent)
+Pete Gallagher | [pjgpetecodes](https://github.com/pjgpetecodes) | [@pete_codes](https://twitter.com/pete_codes)
