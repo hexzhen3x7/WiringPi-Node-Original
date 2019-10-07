@@ -1,4 +1,4 @@
-Node.js bindings to [wiringPi](http://www.wiringpi.com)
+Node.js bindings to [wiringPi](http://www.wiringpi.com) (See note below!)
 
 Based on the awesome work of [Soarez](https://github.com/Soarez/node-wiring-pi)
 
@@ -6,10 +6,22 @@ This version fixes the BCM identification issue present in the original Wiring-P
 
 The original version relied on a very old version of Wiring-Pi.
 
+****************************************************
+
+Please note:
+
+This statically linked version of Wiring Pi is not supported in anyway by Gordon Henderson.
+
+Do not email Gordon with any issues you find with this Package as it is not his responsibility.
+
+Thanks!
+
+*****************************************************
+
 ## Install
 
 ```
-npm install wiring-pi
+npm install wiring-pi-2019
 ```
 
 ## Usage
