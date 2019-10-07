@@ -6,6 +6,8 @@ This version fixes the BCM identification issue present in the original Wiring-P
 
 The original version relied on a very old version of Wiring-Pi.
 
+Note: This version currently only supports Node V6... What this space for a version which supports later versions
+
 ****************************************************
 
 Please note:
