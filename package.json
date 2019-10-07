@@ -1,6 +1,6 @@
 {
   "name": "wiring-pi-2019",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bindings to latest wiringPi (Solves BCM Issue) (Node v6 only)",
   "main": "lib/exports.js",
   "scripts": {
